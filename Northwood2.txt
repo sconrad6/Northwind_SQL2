@@ -1,0 +1,19 @@
+--SELECT * FROM Customers;
+--SELECT * FROM Customers WHERE City IN ('London', 'Paris');
+--SELECT DISTINCT City FROM Customers
+--SELECT FirstName FROM Employees ORDER BY FirstName
+--EMPLOYEE SALARY DOES NOT EXIST
+--EMPLOYEE SALARY DOES NOT EXIST
+--SELECT * FROM Employees WHERE Notes LIKE '%BA%'
+--SELECT (UnitPrice * Quantity) - Discount FROM [Order Details]
+--SELECT * FROM Employees WHERE HireDate > '1/1/1994'
+--SELECT FirstName,DATEDIFF(YY, HireDate, GETDATE()) FROM Employees 
+--SELECT * FROM Products ORDER BY UnitsInStock DESC
+--SELECT * FROM Products ORDER BY UnitsInStock ASC
+--SELECT * FROM Products WHERE UnitsInStock < 6
+--SELECT * FROM Products WHERE Discontinued = 1
+--SELECT * FROM Products WHERE ProductName LIKE '%tofu%'
+--SELECT * FROM Products WHERE UnitPrice=(SELECT MAX(UnitPrice) FROM Products) 
+--SELECT * FROM Employees WHERE HireDate > '1/1/1993'
+--SELECT * FROM Employees WHERE TitleOfCourtesy lIKE ('%Ms%') OR TitleOfCourtesy lIKE ('%Mrs%')
+--SELECT * FROM  Employees WHERE HomePhone LIKE '%206%'
